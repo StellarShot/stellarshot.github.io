@@ -1,0 +1,31 @@
+body{
+    position: relative;
+    width: auto;
+    height: 971px;
+    background: radial-gradient(75.08% 149.64% at 63.8% 33.21%, #0A0B16 0%, #242535 86.2%, #242535 100%);
+}
+
+.astro{
+  position: absolute;
+width: 291.69px;
+height: 323.93px;
+left: 750.61px;
+top: 40.51px;
+}
+
+.astro2{
+  position: absolute;
+  width: 603.77px;
+  height: 361.49px;
+  left: 271.5px;
+  top: -85px;
+}
+
+.astro3{
+  position: absolute;
+width: 600.71px;
+height: 400.41px;
+left: 700.29px;
+top: 240px;
+
+}
