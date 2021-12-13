@@ -7,15 +7,17 @@
 ::-webkit-scrollbar-track {
   box-shadow: inset 0 0 5px grey; 
   border-radius: 10px;
+  background: #181927; 
 }
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #181927; 
+  background: #202131; 
   border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #202131; 
+  background: #1b1c2b;
+  
 }
