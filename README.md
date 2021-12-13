@@ -1,3 +1,5 @@
 Source Code of our Stellarshot Website!
-Soon to be a extraordinary freelancing company
+<br>
+Soon to be a extraordinary freelancing company.
+<br>
 Web devs & Bot devs
