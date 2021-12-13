@@ -16,9 +16,9 @@ top: 40.51px;
 
 .astro3{
   position: absolute;
-width: 600.71px;
-height: 400.41px;
-left: 700.29px;
-top: 240px;
-
+  width: 600.71px;
+  height: 400.41px;
+  left: 700.29px;
+  top: 240px;
+  overflow: hidden;
 }
