@@ -1,11 +1,15 @@
 ::-webkit-scrollbar {
-  width: 8px;
-}
-::-webkit-scrollbar-track {
-  border-radius: 10px;
-  background-color: #0C0D18;
-}
-::-webkit-scrollbar-thumb {
-  background-image: linear-gradient(45deg, #00aeff, #a68eff);
-  border-radius: 10px;
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #0C0D18;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(45deg, #00aeff, #a68eff);
+    border-radius: 10px;
+  }
+
+.example{
+    overflow-x: hidden;
 }

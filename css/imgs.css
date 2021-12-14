@@ -1,23 +1,24 @@
 .astro{
   position: absolute;
-width: 291.69px;
-height: 323.93px;
-left: 750.61px;
-top: 40.51px;
+  width: 291px;
+  height: 323px;
+  left: 950px;
+  top: 150px;
 }
 
 .astro2{
   position: absolute;
-  width: 603.77px;
-  height: 361.49px;
-  left: 271.5px;
-  top: -85px;
+  width: 603px;
+  height: 390px;
+  left: 450px;
+  top: 0px;
 }
 
 .astro3{
   position: absolute;
-  width: 600.71px;
-  height: 400.41px;
-  left: 700.29px;
-  top: 240px;
+  width: 800px;
+  height: 800px;
+  left: 980px;
+  top: 450px;
+
 }
