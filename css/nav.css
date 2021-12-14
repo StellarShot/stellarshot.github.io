@@ -1,4 +1,5 @@
 /*  Made by Hynes  */ 
+/* Buttons Enhanced By Bolt */
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Raleway:wght@300&display=swap');
@@ -16,6 +17,7 @@ li, a, button{
     font-size: 16px;
     text-decoration: none;
 }
+
 
 header {
     display: flex;
@@ -54,6 +56,11 @@ header {
     cursor: pointer;
     color: #DFDCDC;
     margin-right: auto;
+    letter-spacing: 3px;
+}
+
+.logo:hover {
+  color: #6366F1;
 }
 
 button  {
@@ -67,6 +74,7 @@ button  {
     cursor: pointer;
     margin-left: 30px;
 }
+
 
 .heading-landing {
     color: white;
@@ -91,7 +99,7 @@ button  {
 .book-a-flight {
     padding: 12px 30px;
     background-color: #6366F1;
-    border: none;
+    border: 1.14934px solid #6366F1;
     box-sizing: border-box;
     border-radius: 71.2591px;
     color: #FFFFFF;
@@ -101,6 +109,12 @@ button  {
     font-size: 20px;
     font-family: 'Mulish', sans-serif;
     font-weight: 800;
+}
+
+.book-a-flight:hover {
+  background-color: #202130;
+  border: 1.14934px solid #6366F1;
+  transition: 0.5s;
 }
 
 .button-description a {
@@ -114,6 +128,15 @@ button  {
     line-height: 24px;
 }
 
+.how-it-works:hover {
+  font-weight: bold;
+  color: #6366F1;
+}
+
 .arrow-img {
     width: 2em;
+}
+
+.hireus:hover {
+  background-color: #6366F1;
 }
