@@ -1,12 +1,11 @@
-html::-webkit-scrollbar {
+::-webkit-scrollbar {
   width: 8px;
 }
-html::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
   border-radius: 10px;
-  background: rgba(255, 255, 255, 0.1);
+  background-color: #0C0D18;
 }
-html::-webkit-scrollbar-thumb {
-  background: linear-gradient(45deg, #00aeff, #a68eff);
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(45deg, #00aeff, #a68eff);
   border-radius: 10px;
-	-webkit-box-shadow: rgba(0,0,0,.12) 0 3px 13px 1px;
 }
