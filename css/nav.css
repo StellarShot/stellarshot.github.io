@@ -100,7 +100,7 @@ button  {
     margin: 70px 0 55px 70px;
     font-size: 20px;
     font-family: 'Mulish', sans-serif;
-    font-weight: 800;
+    font-weight: 700;
 }
 
 .button-description a {
@@ -116,4 +116,5 @@ button  {
 
 .arrow-img {
     width: 2em;
+    margin-top: 50%;
 }
