@@ -1,32 +1,27 @@
+body {
+  overflow: hidden;
+}
+
 .astro{
   position: absolute;
   width: 291px;
   height: 323px;
-  left: 950px;
-  top: 150px;
+  left: 55em;
+  top: 10em;
 }
 
 .astro2{
   position: absolute;
-  width: 603px;
-  height: 390px;
-  left: 450px;
-  top: 0px;
+  width: 613px;
+  height: 403px;
+  left: 22.75em;
+  top: 0em;
 }
 
 .astro3{
   position: absolute;
-  width: 800px;
-  height: 800px;
-  left: 980px;
-  top: 450px;
-
-}
-
-.astro4{
-  position: absolute;
-  left: -1.14%;
-  right: 16.76%;
-  top: 8.48%;
-  bottom: 46.27%;
+  width: 70em;
+  height: 70em;
+  left: 50em;
+  top: 25em;
 }
