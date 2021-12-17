@@ -3,6 +3,8 @@ body{
     width: auto;
     height: 971px;
     background: radial-gradient(75.08% 149.64% at 63.8% 33.21%, #0A0B16 0%, #242535 86.2%, #242535 100%);
+    background-image: url("./imgs/4.svg");
+
 }
 
 * {
