@@ -57,6 +57,7 @@ header {
     color: #DFDCDC;
     margin-right: auto;
     letter-spacing: 3px;
+    transition: 0.5s ease 0s;
 }
 
 .logo:hover {
@@ -123,14 +124,19 @@ button  {
     font-family: 'Mulish', sans-serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 18.9846px;
+    font-size: 1.2em;
     color: #DFDCDC;
     line-height: 24px;
 }
 
+.how-it-works {
+    transition: 0.3s ease 0s;
+}
+
 .how-it-works:hover {
-  font-weight: bold;
-  color: #6366F1;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #6366F1;
 }
 
 .arrow-img {
