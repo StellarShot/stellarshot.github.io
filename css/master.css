@@ -5,3 +5,11 @@ body{
     background: radial-gradient(75.08% 149.64% at 63.8% 33.21%, #0A0B16 0%, #242535 86.2%, #242535 100%);
 }
 
+* {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+}
