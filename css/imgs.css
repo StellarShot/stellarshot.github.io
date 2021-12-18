@@ -16,6 +16,7 @@ html {
   height: 403px;
   left: 22.75em;
   top: 0em;
+  z-index: -1;
 }
 
 .astro3{
