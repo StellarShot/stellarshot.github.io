@@ -38,14 +38,13 @@
   margin-left: 200px;
 }
 
-li,
-a,
-button {
-  font-family: "Mulish", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  text-decoration: none;
+li, a, button{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
 }
+
 
 header {
   display: -webkit-box;
@@ -57,55 +56,58 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 30px 10%;
-  color: #e2e2e2;
+    justify-content: flex-end;
+    align-items: center;
+    width: 90%;
+    padding-left: 10%;
+    padding-top: 30px;
+    color: #e2e2e2;
+}
+
+.nav-ul li{
+    display: inline-block;
 }
 
 .nav-bar button {
-  display: inline-block;
-}
-
-.nav-ul li {
-  display: inline-block;
+    display: inline-block;
 }
 
 .nav-ul li a {
-  -webkit-transition: 0.5s ease 0s;
-  transition: 0.5s ease 0s;
-  padding: 20px 20px;
-  color: white;
-  font-size: 18px;
+    -webkit-transition: 0.5s ease 0s;
+    transition: 0.5s ease 0s;
+    padding: 20px 20px;
+    color: white;
+    font-size: 18px;
 }
 
 .nav-ul li a:hover {
-  color: #6366f1;
+    color: #6366F1;
 }
 
 .logo {
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 25.7452px;
-  line-height: 31px;
-  display: inline-block;
-  cursor: pointer;
-  color: #dfdcdc;
-  margin-right: auto;
-  letter-spacing: 3px;
-  -webkit-transition: 0.5s ease 0s;
-  transition: 0.5s ease 0s;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25.7452px;
+    line-height: 31px;
+    display: inline-block;
+    cursor: pointer;
+    color: #DFDCDC;
+    margin-right: auto;
+    letter-spacing: 3px;
+    transition: 0.5s ease 0s;
 }
 
 .logo:hover {
-  color: #6366f1;
+  color: #6366F1;
 }
 
-button {
-  padding: 9px 25px;
+button  {
+    padding: 9px 25px;
   background-color: transparent;
   border: 1px solid #6366f1;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   border-radius: 71.2591px;
   color: #ffffff;
   -webkit-transition: 0.5s ease 0s;
@@ -114,94 +116,140 @@ button {
   margin-left: 30px;
 }
 
+
+
+
+
 .heading-landing {
-  color: white;
-  font-family: "Mulish", sans-serif;
-  font-weight: 800;
-  font-style: normal;
-  font-size: 73.5578px;
-  margin-left: 80px;
-  margin-top: 180px;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 73.5578px;
+    margin-left: 80px;
+    margin-top: 180px;
 }
 
 .short-description {
-  color: white;
-  font-family: "Mulish", sans-serif;
-  font-weight: 300;
-  font-size: 20.6881px;
-  margin-left: 80px;
-  margin-top: 30px;
-  margin-right: 980px;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 300;
+    font-size: 22.6881px;
+    margin-left: 80px;
+    margin-top: 30px;
+
 }
 
 .book-a-flight {
-  padding: 12px 30px;
-  background-color: #6366f1;
-  border: 1px solid #6366f1;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border-radius: 71px;
-  color: #ffffff;
-  -webkit-transition: 0.5s ease 0s;
-  transition: 0.5s ease 0s;
-  cursor: pointer;
-  margin: 70px 0 55px 70px;
-  font-size: 20px;
-  font-family: "Mulish", sans-serif;
-  font-weight: 700;
+    padding: 12px 30px;
+    background-color: #6366F1;
+    border: 1px solid #6366f1;
+    box-sizing: border-box;
+    border-radius: 71.2591px;
+    color: #FFFFFF;
+    transition: 0.5s ease 0s;
+    cursor: pointer;
+    margin: 70px 0 55px 70px;
+    font-size: 20px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
 }
 
 .book-a-flight:hover {
   background-color: #202130;
   border: 1px solid #6366f1;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
 .button-description a {
-  margin-left: 30px;
-  font-family: "Mulish", sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 1.2em;
-  color: #dfdcdc;
-  line-height: 24px;
+    margin-left: 30px;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.2em;
+    color: #DFDCDC;
+    line-height: 24px;
 }
 
 .how-it-works {
-  -webkit-transition: 0.3s ease 0s;
-  transition: 0.3s ease 0s;
+    transition: 0.3s ease 0s;
 }
 
 .how-it-works:hover {
-  font-size: 1.3em;
-  font-weight: bold;
-  color: #6366f1;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #6366F1;
 }
 
 .how-it-works-total {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
 }
 
 .arrow-img {
-  width: 2em;
-  margin-top: -0.2em;
-  margin-left: 0.7em;
-  -webkit-transition: 0.3s ease 0s;
-  transition: 0.3s ease 0s;
-  border-radius: 50px;
+    width: 2em;
+    margin-top: -0.2em;
+    margin-left: 0.7em;
+    -webkit-transition: 0.3s ease 0s;
+    transition: 0.3s ease 0s;
+    border-radius: 50px;
 }
 
 .arrow-img:hover {
-  -webkit-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
-  cursor: pointer;
+    cursor: pointer;
 }
 
 .hireus:hover {
-  background-color: #6366f1;
+  background-color: #6366F1;
+}
+
+
+
+
+
+
+
+
+
+
+/* responsiviTITY (please write the code above)*/
+
+
+
+@media(min-width: 1092px) and (max-width: 1200px){
+    .short-description {
+        font-size: 18.69420px;
+    }    
+
+    .how-it-works {
+        font-size: 13px;
+    }
+
+    .book-a-flight {
+        padding: 10px 23px;
+        margin: 30px 0 55px 70px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    
+    .astro{
+        width: 50%;
+        height: 400px;
+        left: 30%;
+    }
+    
+    .heading-landing {
+        font-size: 53.69420px;
+    }
+}
+
+@media(min-width: 1201px) {
+    .short-description {
+        font-size: 18.69420px;
+    }    
 }
 
 * {
@@ -248,26 +296,33 @@ html {
   overflow: hidden;
 }
 
-.astro {
+.astro{
   position: absolute;
-  width: 291px;
-  height: 323px;
-  left: 55em;
-  top: 10em;
+  width: 60%;
+  height: 400px;
+  left: 30%;
+  top: 0em;
 }
 
-.astro2 {
+/* .astro{
+  position: absolute;
+  width: 20%;
+  height: 323px;
+  left: 55%;
+  top: 10em;
+}  */
+
+.astro2{
   position: absolute;
   width: 613px;
   height: 403px;
   left: 22.75em;
-  top: 0em;
 }
 
-.astro3 {
+.astro3{
   position: absolute;
-  width: 70em;
+  width: 80%;
   height: 70em;
-  left: 50em;
+  left: 50%;
   top: 25em;
 }
