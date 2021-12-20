@@ -1,0 +1,273 @@
+/*  Made by Hynes  */
+/* Buttons Enhanced By Bolt */
+/* Made better by Doctor Co 😎 */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Raleway:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,800;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Raleway:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,800;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.back {
+  width: 100%;
+  margin-top: 600px;
+}
+
+.headingab {
+  text-align: center;
+  color: #8081f1;
+  font-size: 50px;
+  font-family: "DM Sans", sans-serif;
+}
+
+.paraab {
+  font-family: "DM Sans", sans-serif;
+  font-size: 20px;
+  color: #8081f1;
+  text-align: center;
+  margin-top: 150px;
+  margin-right: 200px;
+  margin-left: 200px;
+}
+
+li,
+a,
+button {
+  font-family: "Mulish", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px 10%;
+  color: #e2e2e2;
+}
+
+.nav-bar button {
+  display: inline-block;
+}
+
+.nav-ul li {
+  display: inline-block;
+}
+
+.nav-ul li a {
+  -webkit-transition: 0.5s ease 0s;
+  transition: 0.5s ease 0s;
+  padding: 20px 20px;
+  color: white;
+  font-size: 18px;
+}
+
+.nav-ul li a:hover {
+  color: #6366f1;
+}
+
+.logo {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25.7452px;
+  line-height: 31px;
+  display: inline-block;
+  cursor: pointer;
+  color: #dfdcdc;
+  margin-right: auto;
+  letter-spacing: 3px;
+  -webkit-transition: 0.5s ease 0s;
+  transition: 0.5s ease 0s;
+}
+
+.logo:hover {
+  color: #6366f1;
+}
+
+button {
+  padding: 9px 25px;
+  background-color: transparent;
+  border: 1px solid #6366f1;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 71.2591px;
+  color: #ffffff;
+  -webkit-transition: 0.5s ease 0s;
+  transition: 0.5s ease 0s;
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+.heading-landing {
+  color: white;
+  font-family: "Mulish", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 73.5578px;
+  margin-left: 80px;
+  margin-top: 180px;
+}
+
+.short-description {
+  color: white;
+  font-family: "Mulish", sans-serif;
+  font-weight: 300;
+  font-size: 20.6881px;
+  margin-left: 80px;
+  margin-top: 30px;
+  margin-right: 980px;
+}
+
+.book-a-flight {
+  padding: 12px 30px;
+  background-color: #6366f1;
+  border: 1px solid #6366f1;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 71px;
+  color: #ffffff;
+  -webkit-transition: 0.5s ease 0s;
+  transition: 0.5s ease 0s;
+  cursor: pointer;
+  margin: 70px 0 55px 70px;
+  font-size: 20px;
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+}
+
+.book-a-flight:hover {
+  background-color: #202130;
+  border: 1px solid #6366f1;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.button-description a {
+  margin-left: 30px;
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.2em;
+  color: #dfdcdc;
+  line-height: 24px;
+}
+
+.how-it-works {
+  -webkit-transition: 0.3s ease 0s;
+  transition: 0.3s ease 0s;
+}
+
+.how-it-works:hover {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #6366f1;
+}
+
+.how-it-works-total {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.arrow-img {
+  width: 2em;
+  margin-top: -0.2em;
+  margin-left: 0.7em;
+  -webkit-transition: 0.3s ease 0s;
+  transition: 0.3s ease 0s;
+  border-radius: 50px;
+}
+
+.arrow-img:hover {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  cursor: pointer;
+}
+
+.hireus:hover {
+  background-color: #6366f1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.back {
+  width: 100%;
+  margin-top: 600px;
+}
+
+.headingab {
+  text-align: center;
+  color: #8081f1;
+  font-size: 50px;
+  font-family: "DM Sans", sans-serif;
+}
+
+.paraab {
+  font-family: "DM Sans", sans-serif;
+  font-size: 20px;
+  color: #8081f1;
+  text-align: center;
+  margin-top: 150px;
+  margin-right: 200px;
+  margin-left: 200px;
+}
+
+body {
+  position: relative;
+  width: auto;
+  height: 971px;
+  background: radial-gradient(75.08% 149.64% at 63.8% 33.21%, #0a0b16 0%, #242535 86.2%, #242535 100%);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  overflow: hidden;
+}
+
+.astro {
+  position: absolute;
+  width: 291px;
+  height: 323px;
+  left: 55em;
+  top: 10em;
+}
+
+.astro2 {
+  position: absolute;
+  width: 613px;
+  height: 403px;
+  left: 22.75em;
+  top: 0em;
+}
+
+.astro3 {
+  position: absolute;
+  width: 70em;
+  height: 70em;
+  left: 50em;
+  top: 25em;
+}
