@@ -49,6 +49,7 @@ li, a, button{
 header {
   display: -webkit-box;
   display: -ms-flexbox;
+  z-index: 100;
   display: flex;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
