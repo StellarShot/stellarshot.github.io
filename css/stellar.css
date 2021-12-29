@@ -17,9 +17,6 @@
   padding: 0;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-}
-
-.no-sel {
   -webkit-user-drag: none;
   user-select: none;
   -moz-user-select: none;
@@ -27,6 +24,13 @@
   -ms-user-select: none;
 }
 
+p, h1, button, a {
+  -webkit-user-drag: all;
+  user-select: all;
+  -moz-user-select: all;
+  -webkit-user-select: all;
+  -ms-user-select: all;
+}
 .back {
   width: 100%;
   margin-top: 600px;
@@ -50,10 +54,10 @@
 }
 
 li, a, button{
-    font-family: 'Mulish', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    text-decoration: none;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
 }
 
 header {
@@ -132,7 +136,7 @@ button  {
   font-family: 'Mulish', sans-serif;
   font-weight: 800;
   font-style: normal;
-  font-size: 73.5578px;
+  font-size: 70px;
   margin-left: 80px;
   margin-top: 180px;
 }
@@ -141,7 +145,7 @@ button  {
   color: white;
   font-family: 'Mulish', sans-serif;
   font-weight: 300;
-  font-size: 22.6881px;
+  font-size: 28px;
   margin-left: 80px;
   margin-top: 30px;
 }
