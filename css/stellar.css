@@ -1,5 +1,5 @@
 /*  Made by Hynes  */
-/* Buttons Enhanced By Bolt */
+/* responsivity By Bolt */
 /* Made better by Doctor Co 😎 */
 /* Edited slightly by Pixelated */
 
@@ -22,6 +22,10 @@
   -moz-user-select: none;
   -webkit-user-select: none;
   -ms-user-select: none;
+}
+
+.cta {
+  z-index: 1;
 }
 
 p, h1, button, a {
@@ -78,6 +82,9 @@ header {
   padding-top: 30px;
   color: #e2e2e2;
 }
+nav {
+  z-index: 1;
+}
 
 .nav-ul li{
   display: inline-block;
@@ -113,6 +120,10 @@ header {
   transition: 0.5s ease 0s;
 }
 
+.landing-text {
+  margin-top: 220px;
+}
+
 .logo:hover {
   color: #6366F1;
 }
@@ -132,26 +143,26 @@ button  {
 }
 
 .heading-landing {
-  color: white;
+  color: rgb(241, 238, 238);
   font-family: 'Mulish', sans-serif;
   font-weight: 800;
   font-style: normal;
-  font-size: 70px;
+  font-size: 55px;
   margin-left: 80px;
   margin-top: 180px;
 }
 
 .short-description {
-  color: white;
+  color: rgb(236, 231, 231);
   font-family: 'Mulish', sans-serif;
   font-weight: 300;
-  font-size: 28px;
+  font-size: 18px;
   margin-left: 80px;
   margin-top: 30px;
 }
 
 .book-a-flight {
-  padding: 12px 30px;
+  padding: 12px 44px;
   background-color: #6366F1;
   border: 1px solid #6366f1;
   box-sizing: border-box;
@@ -159,10 +170,10 @@ button  {
   color: #FFFFFF;
   transition: 0.5s ease 0s;
   cursor: pointer;
-  margin: 70px 0 55px 70px;
+  margin: 36px 0 55px 70px;
   font-size: 20px;
   font-family: 'Mulish', sans-serif;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .book-a-flight:hover {
@@ -222,9 +233,9 @@ button  {
 *
 */
 
-@media(min-width: 1092px) and (max-width: 1200px){
+@media(min-width: 1237px) and (max-width: 1428px){
   .short-description {
-    font-size: 18.69420px;
+    font-size: 16.69420px;
   }    
 
   .how-it-works {
@@ -245,15 +256,44 @@ button  {
   }
   
   .heading-landing {
-    font-size: 53.69420px;
+    font-size: 43.69420px;
   }
 }
 
-@media(min-width: 1201px) {
+@media(min-width: 1114px) and (max-width: 1236px){
+  .short-description {
+    font-size: 14.69420px;
+    font-weight: 500;
+  }    
+
+  .how-it-works {
+    font-size: 13px;
+  }
+
+  .book-a-flight {
+    padding: 10px 23px;
+    margin: 30px 0 55px 70px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .astro{
+    width: 50%;
+    height: 400px;
+    left: 30%;
+  }
+  
+  .heading-landing {
+    font-size: 36.69420px;
+  }
+}
+
+
+/* @media(min-width: 1241px) {
   .short-description {
     font-size: 18.69420px;
   }    
-}
+} */
 
 * {
   margin: 0;
@@ -305,6 +345,7 @@ html {
   height: 400px;
   left: 30%;
   top: 0em;
+  z-index: 0;
 }
 
 /* .astro{
@@ -320,6 +361,7 @@ html {
   width: 613px;
   height: 403px;
   left: 22.75em;
+  z-index: 0;
 }
 
 .astro3{
@@ -328,4 +370,5 @@ html {
   height: 70em;
   left: 50%;
   top: 25em;
+  z-index: 0;
 }
