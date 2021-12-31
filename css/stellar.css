@@ -233,6 +233,9 @@ button  {
 *
 */
 
+
+/* 1237 to 1428 pixels */
+
 @media(min-width: 1237px) and (max-width: 1428px){
   .short-description {
     font-size: 16.69420px;
@@ -260,7 +263,11 @@ button  {
   }
 }
 
-@media(min-width: 1114px) and (max-width: 1236px){
+
+/* TenTen to 1236 pixels */
+
+
+@media(min-width: 1010px) and (max-width: 1236px){
   .short-description {
     font-size: 14.69420px;
     font-weight: 500;
@@ -271,29 +278,106 @@ button  {
   }
 
   .book-a-flight {
-    padding: 10px 23px;
     margin: 30px 0 55px 70px;
     font-size: 18px;
     font-weight: 600;
   }
   
-  .astro{
-    width: 50%;
+  .heading-landing {
+    font-size: 30.69420px;
+  }
+
+  #res-astro {
+    width: 600px;
     height: 400px;
-    left: 30%;
+    left: 40%;
+  }
+}
+
+/* 930 to 1010 pixels */
+
+@media(min-width: 980px) and (max-width: 1010px){
+  .short-description {
+    font-size: 14.69420px;
+    font-weight: 500;
+  }    
+
+
+  .book-a-flight {
+    margin: 30px 0 55px 70px;
+    font-size: 18px;
+    font-weight: 600;
   }
   
   .heading-landing {
+    font-size: 27.69420px;
+  }
+
+  #res-astro {
+    width: 500px;
+    height: 400px;
+    left: 40%;
+  }
+
+  #res-moon {
+    width: 800px;
+    height: 70em;
+    right: 200px;
+    top: 25em;
+    z-index: 0;
+  }
+}
+
+/* 930 to 1010 pixels */
+
+/* @media(min-width: 767px) and (max-width: 929px){
+  .short-description {
+    font-size: 14.69420px;
+    font-weight: 500;
+  }    
+
+
+  .book-a-flight {
+    margin: 30px 0 55px 70px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .heading-landing {
+    font-size: 27.69420px;
+  }
+
+  #res-astro {
+    width: 500px;
+    height: 400px;
+    left: 40%;
+  }
+
+  #res-moon {
+    width: 1000px;
+    height: 70em;
+    right: 200px;
+    top: 25em;
+    z-index: 0;
+  }
+} */
+
+/* larger screens */
+
+@media(min-width: 1429px) {
+  .short-description {
+    font-size: 18.69420px;
+  }    
+
+  .heading-landing {
     font-size: 36.69420px;
+    z-index: 1;
   }
 }
 
 
-/* @media(min-width: 1241px) {
-  .short-description {
-    font-size: 18.69420px;
-  }    
-} */
+
+
 
 * {
   margin: 0;
@@ -372,3 +456,4 @@ html {
   top: 25em;
   z-index: 0;
 }
+
