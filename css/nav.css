@@ -115,3 +115,6 @@ nav ul a:hover::before {
     color: #6366F1;
 }
 
+.navbar {
+    background-color: rgb(22, 15, 15);
+}
