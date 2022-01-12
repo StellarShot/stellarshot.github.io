@@ -53,8 +53,8 @@
 }
 
 .select-black::selection {
-    background-color: black;
-    color: white;
+    background-color: #6366F1;
+    color: #291e1e;
 }
 
 .select-cyan::selection {
@@ -63,8 +63,8 @@
 }
 
 .select-purple::selection {
-    background-color: #613b9c;
-    color: rgb(255, 255, 255);
+    background-color: #291e1e;
+    color: #6366F1;
 }
 
 .select-green::selection {
