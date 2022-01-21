@@ -6,6 +6,10 @@
   overflow-x: hidden;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
   --bg: "https://cdn.discordapp.com/attachments/917274928963813436/932531995060367380/EseGgsTUUAEbMbH.png";
 }
