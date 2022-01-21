@@ -1,1 +1,1 @@
-Stop looking at this you piece of copycatdeveloper
+The website of the the freelancing team, Stellarshot.
