@@ -26,30 +26,30 @@
         <links>
           <ul class="nav-links">
             <li><a href="#">Home</a></li>
-            <li><a href="#about">About us</a></li>
-            <li><a href="#skills">Services</a></li>
-            <!-- <li><a href="">Devs</a></li> -->
+            <li><a href="#about-link">About us</a></li>
+            <li><a href="#plans">Services</a></li>
           </ul>
         </links>
         <navbtn>
-          <a href="#">Get A Quote</a>
+          <a href="#plans">Get A Quote</a>
         </navbtn>
     </nav>
     <main>
       <article>
         <section id="home">
           <span>      
-            <h1>
+            <h1 class = "hero-h1">
               Where <hl>ideas come to reality</hl>
             </h1>
             <p>
-              Stellarshot is a freelancing group that consists of passionate and hard working developers.
+              Stellarshot is a freelancing group that consists of passionate and skilled developers.
               <br>
-              We make a wide variety of solutions fit for single use or industry application.
+              We make solutions fit for single use or industry application in any field of programming.
             </p>
             <div class="my-8">
               <navbtn>
-                <a href="https://discord.gg/8ZADR4VZar">Discord Server</a>
+                <a href="#about-link" class="lins">View More</a>
+                <a href="https://discord.gg/8ZADR4VZar" class="lins">Discord Server</a>
               </navbtn>
             </div>
           </span>
@@ -57,9 +57,82 @@
       </article>
     </main>
     <img src="assets/wave.svg" class="w-screen "></img>
+    <div id="about-link"></div>
     <section id="about">
-      <h1>Currently in development, sorry for inconvenience.</h1>
+      <h1 id="about-h1"><b>More</b> on us:</h1>
+      <div class="about-us-main-section">
+        <p id="about-us-desc"><b>Stellarshot</b> is a freelancing group that consists of hard-working and vibrant developers.
+        We make a wide array of solutions to accommodate your wildest development dreams.
+        From frontend to backend and everything in between, we have you covered.
+        So, what are you waiting for? <b>Get a quote</b> today and watch us work our magic.</p> 
+      </div>
+    </section>
+    <img src="assets/wave.svg" class="w-screen about-end"></img>
+    <section id="plans">
+      <h1 id="plans-h">Check out some of our <b>awesome</b><br><pi>Services!</pi></h1>
+      <div class="plans-container">
+        <div class="plans">
+        <div class="plan-box">
+          <div class="plan-box-content">
+            <h1>$5-100</h1>
+            <hr>
+            <div class="plans-info">
+              <p>Website</p>
+              <li>Frontend</li>
+              <li>Backend</li>
+              <li>2 days - 4 weeks</li>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="plans">
+        <div class="plan-box">
+          <div class="plan-box-content">
+            <h1>$30-90</h1>
+            <hr>
+            <div class="plans-info">
+              <p>Application</p>
+              <li>Desktop</li>
+              <li>Mobile</li>
+              <li>1 - 10 weeks</li>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="plans">
+        <div class="plan-box">
+          <div class="plan-box-content">
+            <h1>$15-90</h1>
+            <hr>
+            <div class="plans-info">
+              <p>Web Services</p>
+              <li>APIs</li>
+              <li>Web Scrapers</li>
+              <li>1 - 4 weeks</li>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <img src="assets/form-wave.svg" class="w-screen "></img>
+    <h3 class="plans-end">Want to commission us? Join our <abbr title="Click here to join."><a href="https://discord.gg/8ZADR4VZar"><b>Discord server</b></a></abbr> and fill out the following form:</h3>
+    <section id="contact">
+      <div class="first-form">
+        <p>Discord Username & Tag:</p>
+        <label for="username">
+          <input type="text" id="username">
+        </label>
+        <button id="next-step" onclick="DiscordInfoSent()">Next Step</button>
+      </div>
+    </section>
+    <section class="bottom">
+      <ul>
+        <li><a class="bottom-tos" href="legal.html">Terms and Conditions of Use</a></li>
+        <li><b class="bottom-copy">&copy; Stellarshot 2022</b></li>
+      </ul>
     </section>
     <script defer src="src/app.js"></script>
+    <script defer src="src/form.js"></script>
   </body>
 </html>
