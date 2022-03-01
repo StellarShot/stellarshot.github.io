@@ -25,10 +25,7 @@ b {
   color: #777eea;
 }
 .about-us-main-section {
-  display: flex;
-  align-self: center;
-  height: 40rem;
-  overflow: hidden;
+  overflow: visible;
 }
 navbtn .lins {
   margin: 0 1em;
@@ -82,7 +79,7 @@ pi {
 color: #ef6c7c;
 }
 .plans-end{
-  font-size: 26.69px;
+  font-size: 26.69420px;
   color: #eeeeee;
   text-align: center;
   background-color: #2C2E41;
@@ -95,6 +92,9 @@ abbr a b:hover {
 }
 abbr { 
   text-decoration: none;
+}
+.plans-section {
+  margin-top: -20px;
 }
 .plan-box-content {
   display: flex;
@@ -244,6 +244,12 @@ abbr {
 .bottom-copy {
   color: #eee;
 }
+#about-h1 {
+  margin-left: 0;
+}
+#plans {
+  margin-top: -80px;
+}
 
 @media (max-width: 1026px) {
   .about-end {
@@ -256,10 +262,32 @@ abbr {
     margin-top: 50px;
     z-index: 1000000000;
   }
+  #about-us-desc {
+    font-size: 16px;
+  }
+}
+@media (max-width: 712px) {
+  .plans-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .plans {
+    display: flex;
+    justify-content: center;
+  }
+  .plan-box {
+    padding-top: 30px;
+  }
+
+  #planbox-2, #planbox-3 {
+    margin-top: 70px;
+  }
+
 }
 @media (max-width: 719px) {
   .hero-h1 {
     font-size: 28px;
+    margin-top: 50px;
   }
 
   #home span p {
@@ -274,7 +302,6 @@ abbr {
   .about-end {
     margin-top: 6rem;
   }
-  
 }
 @media (max-width: 500px) {
   .hero-h1 {
@@ -290,6 +317,13 @@ abbr {
   }
   #home span p{
     font-size: 12px;
+  }
+  #about-h1 {
+    padding-top: 35px;
+  }
+  #about-us-desc {
+    font-size: 13px;
+    margin-top: -35px;
   }
 }
   
